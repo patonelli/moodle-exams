@@ -1,0 +1,17 @@
+Question 1
+==========
+Qual a capital do Brasil?
+
+Answerlist
+----------
+* Rio de Janeiro
+* São Paulo
+* Brasília
+* Recife
+* Porto Alegre
+
+Meta-information
+================
+exname: capital
+exsolution: 00100
+exshuffle: TRUE

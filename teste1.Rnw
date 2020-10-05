@@ -1,0 +1,32 @@
+
+<<echo=FALSE, results=hide>>=
+## parameters
+a <- sample(2:9, 1)
+b <- sample(seq(2, 4, 0.1), 1)
+c <- sample(seq(0.5, 0.8, 0.01), 1)
+## solution
+res <- exp(b * c) * (a * c^(a-1) + b * c^a)
+@
+
+\begin{question}
+Qual é a derivada de $f(x) = x^{\Sexpr{a}} e^{\Sexpr{b}x}$, avaliada em $x = \Sexpr{c}$?
+\end{question}
+
+\begin{solution}
+Use a regra do produto para derivar $f(x) = g(x) \cdot h(x)$, onde $g(x) := x^{\Sexpr{a}}$ e $h(x) := e^{\Sexpr{b}x}$, 
+\begin{eqnarray*}
+f'(x) & = & [g(x) \cdot h(x)]' = g'(x) \cdot h(x) + g(x) \cdot h'(x) \\
+      & = & \Sexpr{a} x^{\Sexpr{a} - 1} \cdot e^{\Sexpr{b}x} + x^{\Sexpr{a}} \cdot e^{\Sexpr{b}x} \cdot \Sexpr{b} \\
+      & = & e^{\Sexpr{b}x} \cdot(\Sexpr{a} x^\Sexpr{a-1} + \Sexpr{b} x^{\Sexpr{a}}) \\
+      & = & e^{\Sexpr{b}x} \cdot x^\Sexpr{a-1} \cdot (\Sexpr{a} + \Sexpr{b}x).
+\end{eqnarray*}
+avaliado em  $x = \Sexpr{c}$, temos
+\[ e^{\Sexpr{b}\cdot \Sexpr{c}} \cdot \Sexpr{c}^\Sexpr{a-1} \cdot (\Sexpr{a} + \Sexpr{b}\cdot \Sexpr{c}) = \Sexpr{fmt(res, 6)}. \]
+Arredondando para dois dígitos $f'(\Sexpr{c}) = \Sexpr{fmt(res)}$.
+\end{solution}
+
+%% \extype{num}
+%% \exsolution{\Sexpr{fmt(res)}}
+%% \exname{derivative exp}
+%% \extol{0.01}
+\end{document}

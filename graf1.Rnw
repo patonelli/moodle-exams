@@ -1,0 +1,24 @@
+<<echo=FALSE, results=hide>>=
+## Exemplo incluindo gráfico
+include_supplement("arch.pdf")
+@
+
+\begin{question}
+De quem é a figura abaixo
+
+\includegraphics[width=3cm]{arch.pdf}
+
+
+\begin{answerlist}
+    \item Arquimedes
+    \item Pitágoras
+    \item Platão
+    \item Euclides
+    \item Cícero
+    \item Gauss
+\end{answerlist}
+\end{question}
+%% \exname{grafico1}
+%% \extype{schoice}
+%% \exsolution{100000}
+%% \exshuffle{3}

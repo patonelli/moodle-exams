@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+ 
+<question type="category">
+  <category>
+    <text>$module$/pontos formam círculos</text>
+  </category>
+</question>
+ 
+<question type="multichoice">
+  <name>
+    <text>Equação da circunferência</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Qual equação descreve a <B>figura</B>: </P><P></p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>0.1000000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>1</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\((x + 1)^2 + (y-3)^2 = 4\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\((x-1)^2 + (y + 3)^2 = 4\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\((x-1)^2 + (y-3)^2 = 4\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\((x + 1)^2 + (y + 3)^2 = 4\)</p>]]></text>
+  </answer>
+</question>
+ 
+</quiz>

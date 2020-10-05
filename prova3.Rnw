@@ -1,0 +1,30 @@
+<<>>=
+## Teste usando Tikz
+R<-sample(2:9,1)
+@
+\begin{question}
+    Qual é a área da figura abaixo
+\begin{minipage}{0.5\textwidth}
+    
+\begin{figure}
+    \centering
+
+ \caption{Se o raio é $R= \Sexpr{R} $}
+
+<<echo=False, results=tex>>=
+myfigure <- paste0("\\begin{tikzpicture}
+\\fill[color=blue!40] (0,0) circle (2cm);
+\\draw[thick] (0,0) -- node[anchor=north] {$R=",R,"$} (2cm,0);
+\\end{tikzpicture}")
+
+include_tikz(myfigure , format="svg" , name="figura3")
+
+@
+
+\end{figure}
+\end{minipage}
+\end{question}
+
+\exname{prova3}
+\extype{num}
+\exsolution{0}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q1 : boxplots </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>In the following figure the distributions of a variable given by two samples (A and B) are represented by parallel boxplots. Which of the following statements are correct? <em>(Comment: The statements are either about correct or clearly wrong.)</em></p>
+<p><img src="@@PLUGINFILE@@/boxplots-002.png" alt="image" /></p>
+</p>]]></text>
+<file name="boxplots-002.png" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAfQAAAGQCAMAAABvbWL0AAAAUVBMVEUAAAAAADoAAGYAOpAAZrY6AAA6ADo6AGY6kNtmAABmZmZmtv+QOgCQOjqQ2/+2ZgC225C2///T09PbkDrb2//b////tmb/25D//7b//9v///+rz8ZYAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAIm0lEQVR4nO3cjXbaRhCGYfmH1hRq6qhG4Pu/0CJk3ISIZdasmFl973NOHdyz40i8AgnsuPmAnMZ7A3B/RBdEdEFEF0R0QUQXRHRBRBdEdEFEF0R0QUQXRHRBRBdEdEFEF0R0QUQXZIzeoH7Z0b9xPCEWogsiuiCiCyK6IKILIrogogsiuiCiCyK6IKKXNul75YU2ceSWcQA3crsrie6H6IKILojouB+iCyK6IKL74ZwuiOiCiC6I6IKIjvshuiCiCyK6H87pgoguiOiCiC6I6LgfogsiuiCi++GcLojogoguiOiCiI77Ibogogsiup8w5/T9evhn8I9vVwdwoyjR22Y1fLZtXq4N4EZBou/XX6nbp/crA7hRkOi75er06fbCEzzRiwkSnUe6hPNz+sPr8Fm34Jw+W+dX77vlcPV+4XFO9DngdbqfIOf0rAHcKEz09vDUfryCb7l6n1qU6H3qbvH8QfQ7CBJ9v+4f5bvl4TLu1+jT/Z5SYUGif74501fnkT5fY4/0/s9nos/XyDm91y0ufZ+N6PU7v3o/fXdtvyb6z6b4Le5TsO3MyC3jgJTmRxWIXtL8o3eL1cjS35YpIbogogsiuiCiC5p/dNuAFKILIrogogsiuiCiCyK6IKILIrogogsiuiCiCyK6IKILIrogogsiuiCiCyK6IKILIrogogsiuiCiCyK6IO9/d25l25mRW8YBKd4xrWw7M3LLOCDFO6aVbWdGbhkHpHBOF0R0QUQXRHRBRBdEdEFEF0R0QUQXRHRBRBdEdEFEF0R0QUQXRHRBRBdEdEFEF0R0QUQXRHRBRBdEdEFEF0R0QUQXRHRBRBdEdEFEF0R0QUQXRHRBRBfk/btkrGw7M3LLOIAbud2VRPdDdEFEF0R03A/RBRFdENH9cE4XRHRBRBdEdEFEx/0QXRDRBRHdT5Bz+m75cvi4bZrm8e3qAG4UKXr7fLy1ujaAGwWK/pl7+/R+ZQA3ChS9++O1/3R74Qme6MUEir7/e4jOI322zqP3P1E5nNNfrg2gVr+9ZDt0f3j9aJsL13FEnwHv1+l+P/ztL8g5PWvgzmpJaRfgrhxutYcHyvGZvY129U70Cf7i460+dbd4/iD6HQS4K/tb+3X/KN8tDy/Xfo0e4IRJ9An+4uEl2/Gpva8e7pGOYsYe6f2fz0Sfr5Fzeq9bXPo+G9Hrd371vm2Gd+L262jR53e0BbgreZ1+bwHuSqLfW4C78qdN6BaX3nkPsaVzEeCuJHoZFXwzoZ7oKIbogoguiKt3QUQXRHRBRBdEdEH1REcxRBdEdEH1ROdoK4bogoguiOiCiC6onugohuiCiC6onugcbcUQXRDRBRFdENEF1RMdxRBdENEF1ROdo60YogsiuiCiCyK6oHqioxiiC5oo+hS/g2MK37nL6jdV9B9VIHruQHKVd04boucOJFd557Qheu5AcpV3Thui5w4kV3nntCF67kBylXdOG6LnDiRXeee0IXruQHKVd04boucOJFd557Qheu5AcpV3Thui5w4kV3nntCF67kBylXdOG6LnDiRXeee0IXruQHKVd04boucOJFd557Qheu5AcpV3Thui5w4kV3nntCF67kBylXdOG6LnDiRXeee0IXruQHKVd04boucOJFd557Qheu5AcpV3Thui5w4kV3nntCF67kBylXdOG6LnDiRXeee0IXruQHKVd04boucOJFd557Qheu5AcpV3Thui5w4kV3nntCF67kBylXdOG6LnDiRXeee0IXruQHKVd04boucOJFd557Qheu5AcpV3Thui5w4kV3nntCF67kByVSW+c5fVj+iCiC6Ic7ogogsiuiCiCyK6IKILIrogogsiuqDz6Pv18FbV49vVgeSX9c5pQ/T+Q9ushs+2zcu1geSX9c5pQ/SP/nH+lbp9er8ykPyy3jltiH74b7dcnT7dXniCJ3r9eKQLOj+nP7wOn3ULzumzdX71vlsOV+8XHudEnwNepwsiuqDR6NumOZ3bEwPJL+ud04box4+bpnnp/nz7+cXbpYHkl/XOaUP0/sPmcAG3OT7Kt79cyuX+LCHRIxt5c6b74xidN2dma+wduf2/H+eP9LGB5Jf1zmlD9P5De3p875a8OTNb5xdy2+HbbF/fbUsMJL+sd04boucOJFd557Qheu5AcpV3Thui//8/u8WlJ3eizwHRBRFdENEFEV0QV++CiC6I6IKILmiq6JX4zl1Wv4miT0A00BSILojogoguqJ7oKIbogoguqJ7oHG3FEF0Q0QURXRDRBdUTHcUQXRDRBdUTnaOtGKILIrogogsiuqB6oqMYogsiuqB6onO0FUN0QUQXRHRBRBdUT3QUQ3RBRBdUT3SOtmKILojogoguiOiC6omOYoguiOiC6onO0VYM0QURXRDRBXlH5ze+OvCODgdEF0R0QUQXRHRBRBdEdEFEF0R0QUQXRHRB+dFRv9zobqJvX74AexRgE5Kib1++AHsUYBOSom9fvgB7FGATkqJvX74AexRgE5Kib1++AHsUYBOSom9fvgB7FGATkqJvX74AexRgE5Kib1++AHsUYBOSom9fvgB7FGATkqJvX74AexRgE3BvRBdEdEFEF0R0QUQXRHRBRBdEdEFEF0R0QUQXRHRBsaNvmmfvTShpM/z8+cp7O0JH7xZ/Pbx6b0RBm8e3w8fWvXro6O3jP4sX740oaIi+W3o/fUWO3t87m6d3780o5xTd+0COHH17eB7cuj8XFvT59O5+HEeO3t9H/s+FBX1eyB3TewocvTuezzfud1E5w750C+/jOHD09vNf2HqfAcv5PIDdj+O40XfL47lvv3Y/BRZziu79OjRu9NMlnP/L2mJO0b0P47jRT0+CM7qUG3Zp637CChu9+3pbxv3ZsBjehoUbogsiuiCiCyK6IKILIrogogsiuiCiCyK6IKILIrqg/wAh9t8u0mkvAQAAAABJRU5ErkJggg==</file>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ol type = "a">
+<li> False. Distribution B has on average higher values than distribution A. </li>
+<li> True. Both distributions have no observations which deviate more than 1.5 times the interquartile range from the box. </li>
+<li> False. The interquartile range in sample A is<br />
+emph<span>not</span> clearly bigger than in B. </li>
+<li> True. The skewness of both distributions is similar, both are about symmetric. </li>
+<li> True. Distribution B is about symmetric. </li>
+</ol>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-50" format="html">
+<text><![CDATA[<p>
+The location of both distributions is about the same.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+False. Distribution B has on average higher values than distribution A.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="33.33333" format="html">
+<text><![CDATA[<p>
+Both distributions contain no outliers.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+True. Both distributions have no observations which deviate more than 1.5 times the interquartile range from the box.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-50" format="html">
+<text><![CDATA[<p>
+The spread in sample A is clearly bigger than in B.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+False. The interquartile range in sample A is<br />
+emph<span>not</span> clearly bigger than in B.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="33.33333" format="html">
+<text><![CDATA[<p>
+The skewness of both samples is similar.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+True. The skewness of both distributions is similar, both are about symmetric.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="33.33333" format="html">
+<text><![CDATA[<p>
+Distribution B is about symmetric.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+True. Distribution B is about symmetric.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

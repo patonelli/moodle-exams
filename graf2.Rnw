@@ -1,0 +1,29 @@
+<<echo=FALSE, results=hide>>=
+## parameters
+R <- sample(2:9, 1)
+circulo <- "\\begin{tikzpicture}
+\\draw (0,0) circle (2cm);
+\\draw[thick] (0,0) -- node[anchor=north] {$R$} (2cm,0); 
+\\end{tikzpicture}"
+
+@
+
+\begin{question}
+    Qual é a áerea do círculo abaixo com $R=\Sexpr{R}$
+
+<<echo=FALSE>>=
+
+include_tikz(circulo, name="circulo", format="pdf")
+
+@
+
+
+\end{question}
+
+\begin{solution}
+    É $2\pi \Sexpr{R}$ claro!
+\end{solution}
+
+%% \extype{num}
+%% \exsolution{2}
+%% \exname{testetikz}

@@ -1,0 +1,12 @@
+::P1:: Qual a maior raiz positiva de \(x^2 + x\) {
+    =1 #muito bem
+    ~2 # não é raiz
+    ~0 # não é estritamente positivo
+    ~3 # não é raiz
+}
+
+::P2:: Qual o valor de \( \pi \) {#3.1419:0.006}
+
+::P2::
+Uma matriz simétrica { = tem autovalores reais ~ tem autovalores puramente imaginários ~ estritamente positivos} se tiver
+coeficientes reais.

@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+<<>>=
+> circulo <- "\\begin{tikzpicture} \\draw (0,0) circle (2cm); \\end{tikzpicture}"
+> include_tikz(circulo, name= "zirkpdfa", format= "pdf")
+\includegraphics{zirkpdfa.pdf}
+> 
+@
+
+This example worked. It generates correctly the file \textit{zirkpdfa.pdf}
+
+<<>>=
+> include_tikz(circulo, name= "zirksvga", format= "svg")
+## \includegraphics{zirksvga.svg}
+@
+
+this worked too. The file \textit{zirksvga} is there.
+
+Now I expected a fail with the PNG format!
+
+<<>>=
+> include_tikz(circulo, name= "zirkpnga", format= "png")
+@
+
+Indeed this last command terminated abruptly the R-session
+
+\end{document}
