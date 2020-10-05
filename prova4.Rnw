@@ -1,0 +1,23 @@
+<<>>=
+R<-sample(1:9,1)
+cor <- sample(c("red","blue","green"),1)
+textotikz<-paste0("\\begin{tikzpicture} ","\\fill[color=", cor, "!30] (0,0) circle (", R, "cm);",
+"\\draw[thick] (0,0) -- node[anchor=north] {$R=",R,"$} (",R,",0); \\end{tikzpicture}")
+@
+
+\begin{question}
+    Qual é a área da figura?
+
+ \begin{center}
+    
+    <<echo=False, results=tex>>
+    include_tikz(textotikz, name="circulo")
+    @
+ \end{center}
+
+
+\end{question}
+
+%% \exname{prova3}
+%% \extype{num}
+%% \exsolution{0}
