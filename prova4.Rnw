@@ -5,14 +5,19 @@ textotikz<-paste0("\\begin{tikzpicture} ","\\fill[color=", cor, "!30] (0,0) circ
 "\\draw[thick] (0,0) -- node[anchor=north] {$R=",R,"$} (",R,",0); \\end{tikzpicture}")
 @
 
+
+
 \begin{question}
     Qual é a área da figura?
 
  \begin{center}
     
-    <<echo=False, results=tex>>
-    include_tikz(textotikz, name="circulo")
-    @
+<<echo=False, results=tex>>=
+
+    include_tikz(textotikz, format="svg",  name="circulo")
+
+@
+
  \end{center}
 
 
