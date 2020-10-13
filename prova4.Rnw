@@ -1,8 +1,13 @@
 <<>>=
 R<-sample(2:6,1)
 cor <- sample(c("red","blue","green"),1)
-textotikz<-paste0("\\begin{tikzpicture} ","\\fill[color=", cor, "!30] (0,0) circle (", R, "cm);",
-"\\draw[thick] (0,0) -- node[anchor=north] {$R=",R,"$} (",R,",0); \\end{tikzpicture}")
+textotikz<-paste0("\\begin{tikzpicture} ",
+"\\draw[gray!30] (-6.5,-6.5) grid (6.5,6.5);",
+"\\fill[color=", cor, 
+"!30] (0,0) circle (", R, "cm);",
+"\\draw[thick] (0,0) -- node[anchor=north] {$R=",R,"$} (",
+R,
+",0); \\end{tikzpicture}")
 @
 
 
@@ -14,7 +19,7 @@ textotikz<-paste0("\\begin{tikzpicture} ","\\fill[color=", cor, "!30] (0,0) circ
     
 <<echo=False, results=tex>>=
 
-    include_tikz(textotikz, format="png",  name="circulo")
+    include_tikz(textotikz, name="circulo")
 
 @
 
@@ -25,4 +30,4 @@ textotikz<-paste0("\\begin{tikzpicture} ","\\fill[color=", cor, "!30] (0,0) circ
 
 %% \exname{prova3}
 %% \extype{num}
-%% \exsolution{0}
+%% \exsolution{$\Sexpr{3.14*R^2}$}
