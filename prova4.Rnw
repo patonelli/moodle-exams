@@ -1,5 +1,5 @@
 <<>>=
-R<-sample(1:9,1)
+R<-sample(2:6,1)
 cor <- sample(c("red","blue","green"),1)
 textotikz<-paste0("\\begin{tikzpicture} ","\\fill[color=", cor, "!30] (0,0) circle (", R, "cm);",
 "\\draw[thick] (0,0) -- node[anchor=north] {$R=",R,"$} (",R,",0); \\end{tikzpicture}")
@@ -14,7 +14,7 @@ textotikz<-paste0("\\begin{tikzpicture} ","\\fill[color=", cor, "!30] (0,0) circ
     
 <<echo=False, results=tex>>=
 
-    include_tikz(textotikz, format="svg",  name="circulo")
+    include_tikz(textotikz, format="png",  name="circulo")
 
 @
 
